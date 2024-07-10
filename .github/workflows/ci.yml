@@ -54,7 +54,7 @@ jobs:
         working-directory: front
 
       - name: Run frontend tests and generate coverage report
-        run: npm test -- --coverage
+        run: npm test
         working-directory: front
 
       - name: Archive coverage report
